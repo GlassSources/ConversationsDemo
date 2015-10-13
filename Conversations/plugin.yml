@@ -1,0 +1,20 @@
+name: Conversations
+version: 1
+author: FaucetBetaTeam
+main: org.faucetbeta.conversations.CoreConv
+commands:
+  startconversation:
+    description: Starts a new Conversation with the specified player.
+    permission: conversationsbeta.startconversation
+    usage: /startconversation <player>
+  istalking:
+    description: Find the specified player's conversable boolean.
+    permission: conversationsbeta.istalking
+    usage: /istalking <player>
+permissions:
+  conversationsbeta.startconversation:
+    description: Allows the STARTCONVERSATION command.
+    default: op
+  conversationsbeta.istalking:
+    description: Allows the ISTALKING command.
+    default: op
